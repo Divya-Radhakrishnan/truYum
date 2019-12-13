@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\833512\Desktop\truyum\css\style.css" type="text/css">
+        <script src="C:\Users\833512\Desktop\truyum\js\editmenu2.js"></script>
+        <title> 
+           edit menu item list
+        </title>
+    </head>
+        <body onLoad="addColumn()"> <!--onload=deleteRow(r)-->
+            <div class="topnav">
+                <div class="home">truyum</div>
+                <img src="C:\Users\833512\Desktop\truyum\image\truyum-logo-light.png" color="white">
+                <a href="C:\Users\833512\Desktop\truyum\form\cart.html">cart</a>
+                <a href="C:\Users\833512\Desktop\truyum\form\menu-items.html">menu</a>
+                </div>
+               
+                <h1>cart</h1>
+                <div id="paradiv">
+                   <span id="span"></span>
+                </div>
+                <div>
+                        <table id="table_id">
+                            <tr>
+                                <th>Name</th>
+                                <th>Free Delivery</th>
+                                <th>Price</th>
+                                <th>Category</th>
+                            </tr>
+                            <tr>
+                                <td>Sandwitch</td>
+                                <td>Yes</td>
+                                <td>Rs.99.00</td>
+                                <td>Main Course</td>
+                                <td> <a onClick="deleteRow(this)"> Delete</a></td>
+                            </tr>
+                            <tr>
+                                    <td>Burger</td>
+                                    <td>No</td>
+                                    <td>Rs.129.00</td>
+                                    <td>Main Course</td>
+                                    <td> <a onClick="deleteRow(this)"> Delete</a></td>
+                                </tr>
+                                <tr>
+                                        <td>Pizza</td>
+                                        <td>No</td>
+                                        <td>Rs.149.00</td>
+                                        <td>Main Course</td>
+                                        <td> <a onClick="deleteRow(this)"> Delete</a></td>
+                                </tr>
+                                <tr>
+                                        <td></td>
+                                        <td><h4>Total:</h4></td>
+                                        <td id="val"></td>
+                                    </tr>
+                                
+                                    <div>
+                                        <footer class="footer" id="footer">copyright@2019</footer>
+                                    </div>
+                    </table>
+                </div>
+                </body>
+                    <html>
